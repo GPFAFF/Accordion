@@ -3,5 +3,5 @@ $('.accordion').on('click', '.accordion-controls', function(e){
 	$(this)
 		.next('.accordion-content')
 		.not(':animated')
-		.slideToggle();
+		.slideToggle(); 
 });
